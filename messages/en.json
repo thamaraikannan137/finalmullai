@@ -6,7 +6,14 @@
     "orgNameLine2": "Irrigation Farmers Association"
   },
   "nav": [
-    { "id": "home", "label": "Home", "href": "/", "type": "anchor" },
+    { "id": "home", "label": "Home", "href": "#home", "type": "anchor" },
+    { "id": "about", "label": "About", "href": "#about", "type": "anchor" },
+    { "id": "demands", "label": "Demands", "href": "#demands", "type": "anchor" },
+    { "id": "news", "label": "News", "href": "/news", "type": "page" },
+    { "id": "contact", "label": "Contact", "href": "#contact", "type": "anchor" }
+  ],
+  "footerNav": [
+    { "id": "home", "label": "Home", "href": "#home", "type": "anchor" },
     { "id": "about", "label": "About", "href": "#about", "type": "anchor" },
     { "id": "leaders", "label": "Leaders", "href": "#leaders", "type": "anchor" },
     { "id": "demands", "label": "Demands", "href": "#demands", "type": "anchor" },

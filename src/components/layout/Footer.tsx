@@ -38,7 +38,7 @@ export async function Footer() {
               {content.footer.pagesTitle}
             </h4>
             <div className="flex flex-col items-start gap-3 text-sm">
-              {content.nav.map((item) =>
+              {content.footerNav.map((item) =>
                 item.type === "page" ? (
                   <Link
                     key={item.id}

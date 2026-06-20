@@ -183,6 +183,14 @@ textarea::placeholder {
 }
 
 @media (min-width: 1181px) {
+  .mq-desknav {
+    display: flex !important;
+  }
+
+  .mq-deskjoin {
+    display: inline-flex !important;
+  }
+
   .mq-mobilemenu {
     display: none !important;
   }

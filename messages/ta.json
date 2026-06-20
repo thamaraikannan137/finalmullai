@@ -6,7 +6,14 @@
     "orgNameLine2": "விவசாயிகள் சங்கம்"
   },
   "nav": [
-    { "id": "home", "label": "முகப்பு", "href": "/", "type": "anchor" },
+    { "id": "home", "label": "முகப்பு", "href": "#home", "type": "anchor" },
+    { "id": "about", "label": "சங்கம் பற்றி", "href": "#about", "type": "anchor" },
+    { "id": "demands", "label": "கோரிக்கைகள்", "href": "#demands", "type": "anchor" },
+    { "id": "news", "label": "பதிவுகள்", "href": "/news", "type": "page" },
+    { "id": "contact", "label": "தொடர்பு", "href": "#contact", "type": "anchor" }
+  ],
+  "footerNav": [
+    { "id": "home", "label": "முகப்பு", "href": "#home", "type": "anchor" },
     { "id": "about", "label": "சங்கம் பற்றி", "href": "#about", "type": "anchor" },
     { "id": "leaders", "label": "தலைவர்கள்", "href": "#leaders", "type": "anchor" },
     { "id": "demands", "label": "கோரிக்கைகள்", "href": "#demands", "type": "anchor" },
