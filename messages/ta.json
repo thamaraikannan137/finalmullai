@@ -142,19 +142,19 @@
   ],
   "objectives": [
     {
-      "icon": "🌊",
+      "icon": "water",
       "title": "நீர் உரிமை",
       "titleSecondary": "Water Rights",
       "body": "பெரியாறு பாசனப் பகுதி விவசாயிகளின் நீர் உரிமையைச் சட்டப்பூர்வமாகப் பாதுகாத்தல்."
     },
     {
-      "icon": "🛡️",
+      "icon": "dam",
       "title": "அணைப் பாதுகாப்பு",
       "titleSecondary": "Dam Safety",
       "body": "அணையின் கட்டமைப்புப் பாதுகாப்பை இடைவிடாமல் கண்காணித்து உறுதி செய்தல்."
     },
     {
-      "icon": "🌾",
+      "icon": "livelihood",
       "title": "வாழ்வாதாரம்",
       "titleSecondary": "Livelihood",
       "body": "ஒருபோக விவசாயிகளின் பயிர், வருமானம், வாழ்வாதாரத்தைக் காத்தல்."
@@ -164,7 +164,7 @@
     "name": "மு. முருகன்",
     "role": "தலைவர்",
     "roleSecondary": "President",
-    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20Theni%20district.jpg?width=1000"
+    "photo": "/thalivar.png"
   },
   "bearers": [
     { "name": "பெயர் இங்கே", "role": "செயலாளர்", "roleSecondary": "Secretary", "initial": "செ" },

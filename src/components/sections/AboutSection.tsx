@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getMessages } from "next-intl/server";
 import type { SiteContent } from "@/lib/content";
+import { ObjectiveIcon, type ObjectiveIconName } from "@/components/ui/ObjectiveIcon";
 
 export async function AboutSection() {
   const content = (await getMessages()) as SiteContent;
@@ -53,8 +54,8 @@ export async function AboutSection() {
               key={item.title}
               className="card-base card-tilt col-span-12 px-8 py-[34px] lg:col-span-4"
             >
-              <div className="flex size-[46px] items-center justify-center rounded-xl bg-brand-soft text-[22px]">
-                {item.icon}
+              <div className="flex size-[46px] items-center justify-center rounded-xl bg-brand-soft">
+                <ObjectiveIcon name={item.icon as ObjectiveIconName} />
               </div>
               <h3 className="mt-[22px] text-xl font-semibold tracking-[-0.015em] text-text">
                 {item.title}

@@ -18,7 +18,7 @@
   --surface-green: #f4f8f1;
   --surface-green-deep: #eaf1e7;
   /* Stronger green tint for alternating sections (home, leaders, issue, video, join) */
-  --surface-green-strong: color-mix(in srgb, var(--brand) 2%, var(--surface-green));
+  --surface-green-strong: color-mix(in srgb, var(--brand) 4%, var(--surface-green));
   --surface-green-strong-deep: color-mix(in srgb, var(--brand) 0%, var(--surface-green-deep));
   --surface-card: linear-gradient(160deg, #fbfdf9, #f1f6ee);
   --dark: #0e2c20;
@@ -90,6 +90,25 @@ textarea::placeholder {
 
   .bg-section-green {
     @apply bg-gradient-to-b from-surface-green-strong to-surface-green-strong-deep;
+  }
+
+  .quote-block {
+    --quote-mark-size: 3rem;
+    @apply flex items-start gap-1;
+  }
+
+  .quote-mark-start,
+  .quote-mark-end {
+    font-size: var(--quote-mark-size);
+    @apply font-display leading-none text-brand select-none;
+  }
+
+  .quote-mark-start {
+    @apply shrink-0;
+  }
+
+  .quote-block .quote-mark-end {
+    @apply ml-1 inline-block align-[-0.1em];
   }
 
   .type-eyebrow {

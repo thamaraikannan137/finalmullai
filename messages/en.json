@@ -142,19 +142,19 @@
   ],
   "objectives": [
     {
-      "icon": "🌊",
+      "icon": "water",
       "title": "Water Rights",
       "titleSecondary": "நீர் உரிமை",
       "body": "Legally protect the water rights of farmers in the Periyar command area."
     },
     {
-      "icon": "🛡️",
+      "icon": "dam",
       "title": "Dam Safety",
       "titleSecondary": "அணைப் பாதுகாப்பு",
       "body": "Continuously monitor and ensure the dam's structural safety."
     },
     {
-      "icon": "🌾",
+      "icon": "livelihood",
       "title": "Livelihood",
       "titleSecondary": "வாழ்வாதாரம்",
       "body": "Protect the crops, income, and livelihood of single-crop farmers."
@@ -164,7 +164,7 @@
     "name": "M. Murugan",
     "role": "President",
     "roleSecondary": "தலைவர்",
-    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20Theni%20district.jpg?width=1000"
+    "photo": "/thalivar.png"
   },
   "bearers": [
     { "name": "Name here", "role": "Secretary", "roleSecondary": "செயலாளர்", "initial": "S" },

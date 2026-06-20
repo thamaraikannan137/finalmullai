@@ -32,11 +32,19 @@ export async function LeadersSection() {
             <span className="font-display text-xs font-medium uppercase tracking-[0.12em] text-brand">
               {president.role} · {president.roleSecondary}
             </span>
-            <p className="mt-[18px] text-[clamp(20px,2.2vw,28px)] font-medium leading-[1.5] tracking-[-0.015em] text-text">
-              {section.presidentQuoteLead}{" "}
-              <span className="text-brand">{section.presidentQuoteHighlight}</span>{" "}
-              {section.presidentQuoteTail}
-            </p>
+            <blockquote className="quote-block mt-[18px]">
+              <span aria-hidden="true" className="quote-mark-start">
+                {"\u201C"}
+              </span>
+              <p className="m-0 text-[clamp(20px,2.2vw,28px)] font-medium leading-[1.5] tracking-[-0.015em] text-text">
+                {section.presidentQuoteLead}{" "}
+                <span className="text-brand">{section.presidentQuoteHighlight}</span>{" "}
+                {section.presidentQuoteTail}
+                <span aria-hidden="true" className="quote-mark-end">
+                  {"\u201D"}
+                </span>
+              </p>
+            </blockquote>
             <p className="type-body-md mt-[22px]">{section.presidentBio}</p>
             <p className="mt-6 text-lg font-semibold text-text">
               {president.name}
