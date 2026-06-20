@@ -9,7 +9,7 @@ export async function HeroSection() {
   return (
     <section
       id="home"
-      className="r-hero bg-gradient-to-b from-white to-surface-muted pt-[70px]"
+      className="r-hero bg-section-green pt-[70px]"
     >
       <div className="hero-wrap">
         <div className="max-w-[880px]">

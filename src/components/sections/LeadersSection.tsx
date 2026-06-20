@@ -10,7 +10,7 @@ export async function LeadersSection() {
   return (
     <section
       id="leaders"
-      className="bg-gradient-to-b from-surface-green to-surface-green-deep"
+      className="bg-section-green"
     >
       <div className="site-wrap">
         <div className="mb-10">

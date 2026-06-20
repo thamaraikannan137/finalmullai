@@ -32,7 +32,7 @@ export function JoinSection() {
   return (
     <section
       id="join"
-      className="bg-gradient-to-b from-surface-green to-surface-green-deep"
+      className="bg-section-green"
     >
       <div className="site-wrap">
         <div className="r-stack grid grid-cols-1 overflow-hidden rounded-[20px] border border-[#e5ece2] shadow-[0_1px_3px_rgba(20,36,28,0.05),0_30px_64px_rgba(20,36,28,0.10)] lg:grid-cols-2">

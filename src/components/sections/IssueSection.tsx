@@ -8,7 +8,7 @@ export async function IssueSection() {
   return (
     <section
       id="issue"
-      className="bg-gradient-to-b from-surface-green to-surface-green-deep"
+      className="bg-section-green"
     >
       <div className="site-wrap">
         <span className="type-eyebrow">{section.eyebrow}</span>
