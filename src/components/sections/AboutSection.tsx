@@ -1,10 +1,11 @@
 import Image from "next/image";
-import { getMessages } from "next-intl/server";
+import { getLocale, getMessages } from "next-intl/server";
 import type { SiteContent } from "@/lib/content";
 import { ObjectiveIcon, type ObjectiveIconName } from "@/components/ui/ObjectiveIcon";
 
 export async function AboutSection() {
   const content = (await getMessages()) as SiteContent;
+  const locale = await getLocale();
   const about = content.sections.about;
 
   return (
@@ -77,9 +78,11 @@ export async function AboutSection() {
             {about.quoteLead}{" "}
             <span className="text-brand-light">{about.quoteHighlight}</span>
           </p>
-          <p className="mt-5 font-display text-[15px] italic text-[#9dbbab]">
-            “{about.quoteEn}”
-          </p>
+          {locale === "en" ? (
+            <p className="mt-5 font-display text-[15px] italic text-[#9dbbab]">
+              “{about.quoteEn}”
+            </p>
+          ) : null}
         </div>
       </div>
     </section>

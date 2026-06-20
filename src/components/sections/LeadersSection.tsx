@@ -72,10 +72,10 @@ export async function LeadersSection() {
                   {person.name}
                 </h3>
                 <p className="mt-[5px] font-display text-[10.5px] font-medium uppercase tracking-[0.14em] text-brand">
-                  {person.roleSecondary}
+                  {person.role}
                 </p>
                 <p className="mt-0.5 text-[13px] text-text-soft">
-                  {person.role}
+                  {person.roleSecondary}
                 </p>
               </div>
             </div>
