@@ -18,7 +18,7 @@
   --surface-green: #f4f8f1;
   --surface-green-deep: #eaf1e7;
   /* Stronger green tint for alternating sections (home, leaders, issue, video, join) */
-  --surface-green-strong: color-mix(in srgb, var(--brand) 3%, var(--surface-green));
+  --surface-green-strong: color-mix(in srgb, var(--brand) 2%, var(--surface-green));
   --surface-green-strong-deep: color-mix(in srgb, var(--brand) 0%, var(--surface-green-deep));
   --surface-card: linear-gradient(160deg, #fbfdf9, #f1f6ee);
   --dark: #0e2c20;
@@ -151,6 +151,23 @@ textarea::placeholder {
       0 30px 64px rgba(20, 36, 28, 0.1);
   }
 
+  .contact-card-tilt {
+    @apply transition-[transform,box-shadow,border-color,background-color] duration-300;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+  }
+
+  .contact-card-tilt:hover {
+    transform: perspective(900px) rotateY(-5deg) translateX(6px);
+    background-color: var(--brand-soft);
+    border-color: rgba(23, 138, 78, 0.35);
+    box-shadow:
+      0 0 0 1px rgba(23, 138, 78, 0.15),
+      0 0 18px rgba(23, 138, 78, 0.28),
+      0 0 36px rgba(95, 199, 140, 0.22),
+      0 12px 28px rgba(23, 138, 78, 0.14);
+  }
+
   .btn-primary {
     @apply inline-flex items-center justify-center rounded-[11px] bg-brand px-7 py-[15px] text-[14.5px] font-semibold text-white no-underline transition-[background,transform] duration-200 hover:-translate-y-0.5 hover:bg-brand-dark;
   }
@@ -185,10 +202,6 @@ textarea::placeholder {
   .mq-deskjoin {
     display: none !important;
   }
-
-  .mq-burger {
-    display: flex !important;
-  }
 }
 
 @media (min-width: 1181px) {
@@ -200,6 +213,7 @@ textarea::placeholder {
     display: inline-flex !important;
   }
 
+  .mq-burger,
   .mq-mobilemenu {
     display: none !important;
   }

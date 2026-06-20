@@ -7,6 +7,7 @@ import { routing, type Locale } from "@/i18n/routing";
 import type { SiteContent } from "@/lib/content";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import "../globals.css";
 
 const anekTamil = Anek_Tamil({
@@ -67,6 +68,7 @@ export default async function LocaleLayout({
           <Header />
           <main>{children}</main>
           <Footer />
+          <ScrollToTop />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -3,7 +3,7 @@ import type { SiteContent } from "@/lib/content";
 
 function ContactIcon({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex size-[50px] shrink-0 items-center justify-center rounded-xl border border-[#e4e8e4] bg-white shadow-[0_4px_12px_rgba(20,36,28,0.07)]">
+    <div className="flex size-[50px] shrink-0 items-center justify-center rounded-xl border border-[#e4e8e4] bg-white shadow-[0_4px_12px_rgba(20,36,28,0.07)] transition-[transform,background-color,border-color,box-shadow] duration-300 group-hover:scale-105 group-hover:border-brand/30 group-hover:bg-brand-muted group-hover:shadow-[0_0_14px_rgba(23,138,78,0.35),0_4px_12px_rgba(20,36,28,0.07)]">
       {children}
     </div>
   );
@@ -34,15 +34,11 @@ export async function ContactSection() {
             </div>
           </div>
 
-          <div className="card-soft rounded-[18px] px-[34px] py-3.5">
+          <div className="flex flex-col gap-[14px] [perspective:900px]">
             {content.contacts.map((contact, index) => (
               <div
                 key={contact.label}
-                className={`flex items-center gap-5 py-6 ${
-                  index < content.contacts.length - 1
-                    ? "border-b border-[#e4e8e4]"
-                    : ""
-                }`}
+                className="card-base contact-card-tilt group flex items-center gap-5 rounded-[18px] px-[26px] py-6 shadow-[0_1px_2px_rgba(20,36,28,0.04),0_10px_26px_rgba(20,36,28,0.05)]"
               >
                 <ContactIcon>
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#178A4E" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
@@ -65,7 +61,7 @@ export async function ContactSection() {
                   <p className="m-0 font-display text-[11px] uppercase tracking-[0.12em] text-text-faint">
                     {contact.label}
                   </p>
-                  <p className="mt-[5px] break-words text-[17px] font-semibold leading-[1.45] text-text">
+                  <p className="mt-[5px] break-words text-[17px] font-semibold leading-[1.45] text-text transition-colors duration-300 group-hover:text-brand-dark">
                     {contact.value}
                   </p>
                 </div>

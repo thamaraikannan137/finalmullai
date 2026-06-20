@@ -8,6 +8,7 @@
   "nav": [
     { "id": "home", "label": "Home", "href": "#home", "type": "anchor" },
     { "id": "about", "label": "About", "href": "#about", "type": "anchor" },
+    { "id": "leaders", "label": "Leaders", "href": "#leaders", "type": "anchor" },
     { "id": "demands", "label": "Demands", "href": "#demands", "type": "anchor" },
     { "id": "news", "label": "News", "href": "/news", "type": "page" },
     { "id": "contact", "label": "Contact", "href": "#contact", "type": "anchor" }
@@ -35,7 +36,8 @@
     "submit": "Submit",
     "send": "Send",
     "districts": "Theni · Madurai · Sivaganga · Ramanathapuram · Dindigul",
-    "langSwitch": "தமிழ்"
+    "langSwitch": "தமிழ்",
+    "scrollToTop": "Scroll to top"
   },
   "sections": {
     "hero": {
@@ -170,14 +172,14 @@
     { "name": "Name here", "role": "Vice President", "roleSecondary": "துணைத் தலைவர்", "initial": "V" }
   ],
   "demands": [
-    { "num": "01", "text": "Raise the Mullai Periyar dam water level to the full 152 feet.", "textSecondary": "முல்லைப் பெரியாறு அணையின் நீர்மட்டம் 152 அடியாக உயர்த்தப்பட வேண்டும்." },
+    { "num": "01", "text": "Raise the Mullai Periyar dam water level to the full 152 feet.", "textSecondary": "முல்லை பெரியாறு அணையின் நீர்மட்டம் 152 அடியாக உயர்த்தப்பட வேண்டும்." },
     { "num": "02", "text": "Release irrigation water on time, as per cultivation needs.", "textSecondary": "பாசனத் தேவைக்கேற்ப தண்ணீர் காலத்தோடு திறந்துவிடப்பட வேண்டும்." },
     { "num": "03", "text": "Legally protect the water rights of farmers in the command area.", "textSecondary": "பெரியாறு பாசனப் பகுதி விவசாயிகளின் நீர் உரிமை சட்டப்படி பாதுகாக்கப்பட வேண்டும்." },
     { "num": "04", "text": "Continuously monitor and ensure the dam's structural safety.", "textSecondary": "அணையின் கட்டமைப்புப் பாதுகாப்பு தொடர்ந்து கண்காணிக்கப்பட வேண்டும்." },
     { "num": "05", "text": "Provide fair compensation and crop insurance to single-crop farmers.", "textSecondary": "ஒருபோக விவசாயிகளுக்கு உரிய நஷ்டஈடு மற்றும் பயிர்க் காப்பீடு வழங்கப்பட வேண்டும்." }
   ],
   "timeline": [
-    { "year": "1895", "text": "Mullai Periyar dam completed under John Pennycuick.", "textSecondary": "ஜான் பென்னிகுயிக் தலைமையில் முல்லைப் பெரியாறு அணை கட்டி முடிக்கப்பட்டது." },
+    { "year": "1895", "text": "Mullai Periyar dam completed under John Pennycuick.", "textSecondary": "ஜான் பென்னிகுயிக் தலைமையில் முல்லை பெரியாறு அணை கட்டி முடிக்கப்பட்டது." },
     { "year": "1886", "text": "999-year lease agreement — west-flowing Periyar water diverted eastward.", "textSecondary": "999 ஆண்டு குத்தகை ஒப்பந்தம் — மேற்கு நோக்கி ஓடிய பெரியாறு நீர் கிழக்கே திருப்பப்பட்டது." },
     { "year": "2014", "text": "Supreme Court permits raising the level from 142 ft to 152 ft.", "textSecondary": "உச்ச நீதிமன்றம் நீர்மட்டத்தை 142 அடியிலிருந்து 152 அடியாக உயர்த்த அனுமதித்தது." },
     { "year": "Today", "text": "The association presses for the full 152 ft level and timely water release.", "textSecondary": "152 அடி முழு நீர்மட்டத்தையும் காலத்தோடு நீர் திறப்பையும் சங்கம் வலியுறுத்துகிறது." }
@@ -230,7 +232,7 @@
   "contacts": [
     { "label": "Phone", "value": "+91 00000 00000" },
     { "label": "Email", "value": "contact@mullaiperiyar.org" },
-    { "label": "Address", "value": "Association office, Theni district, Tamil Nadu" }
+    { "label": "Address", "value": "Melur, Madurai district, Tamil Nadu" }
   ],
   "news": [
     {

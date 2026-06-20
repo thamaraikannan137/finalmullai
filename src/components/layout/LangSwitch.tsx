@@ -19,7 +19,7 @@ export function LangSwitch({ className }: LangSwitchProps) {
     <button
       type="button"
       className={cn(
-        "rounded-lg border border-border bg-white px-3 py-2 text-xs font-semibold text-text-muted transition-colors hover:border-brand hover:text-brand",
+        "inline-flex rounded-lg border border-border bg-white px-3 py-2 text-xs font-semibold text-text-muted transition-colors hover:border-brand hover:text-brand",
         className,
       )}
       onClick={() => router.replace(pathname, { locale: nextLocale })}
