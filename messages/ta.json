@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "முல்லைப் பெரியாறு ஒருபோக பாசன விவசாயிகள் சங்கம்",
+    "description": "பெரியாறு நீரை நம்பி வாழும் தென் தமிழ்நாட்டு விவசாயிகளின் உரிமைகளைப் பாதுகாக்க ஒன்றிணைந்த ஒற்றைக் குரல்.",
+    "orgName": "முல்லைப் பெரியாறு ஒருபோக பாசன",
+    "orgNameLine2": "விவசாயிகள் சங்கம்"
+  },
+  "nav": [
+    { "id": "home", "label": "முகப்பு", "href": "/", "type": "anchor" },
+    { "id": "about", "label": "சங்கம் பற்றி", "href": "#about", "type": "anchor" },
+    { "id": "leaders", "label": "தலைவர்கள்", "href": "#leaders", "type": "anchor" },
+    { "id": "demands", "label": "கோரிக்கைகள்", "href": "#demands", "type": "anchor" },
+    { "id": "issue", "label": "பிரச்சனை", "href": "#issue", "type": "anchor" },
+    { "id": "farmers", "label": "விவசாயிகள்", "href": "#farmers", "type": "anchor" },
+    { "id": "news", "label": "பதிவுகள்", "href": "/news", "type": "page" },
+    { "id": "video", "label": "காணொளிகள்", "href": "#video", "type": "anchor" },
+    { "id": "gallery", "label": "படங்கள்", "href": "/gallery", "type": "page" },
+    { "id": "contact", "label": "தொடர்பு", "href": "#contact", "type": "anchor" }
+  ],
+  "common": {
+    "join": "இணையுங்கள்",
+    "becomeMember": "உறுப்பினராகுங்கள்",
+    "ourDemands": "எங்கள் கோரிக்கைகள்",
+    "viewAll": "அனைத்தையும் பார்",
+    "readMore": "முழுவதும் படிக்க →",
+    "close": "← மூடு",
+    "back": "பின்செல்",
+    "submit": "பதிவு செய்யுங்கள்",
+    "send": "அனுப்பு",
+    "districts": "தேனி · மதுரை · சிவகங்கை · ராமநாதபுரம் · திண்டுக்கல்",
+    "langSwitch": "English"
+  },
+  "sections": {
+    "hero": {
+      "badge": "தேனி · மதுரை · சிவகங்கை · ராமநாதபுரம் · திண்டுக்கல்",
+      "title": "மண்ணும் நீரும்",
+      "titleHighlight": "நம் உரிமை.",
+      "description": "முல்லைப் பெரியாறு ஒருபோக பாசன விவசாயிகள் சங்கம் — பெரியாறு நீரை நம்பி வாழும் தென் தமிழ்நாட்டு விவசாயிகளின் உரிமைகளைப் பாதுகாக்க ஒன்றிணைந்த ஒற்றைக் குரல்.",
+      "ctaPrimary": "உறுப்பினராகுங்கள்",
+      "ctaSecondary": "எங்கள் கோரிக்கைகள் →",
+      "bannerAlt": "தேனி மாவட்ட நெல் வயல்",
+      "overlayValue": "152",
+      "overlayUnit": "ft",
+      "overlayLabel": "கோரும் முழு நீர்மட்டம்",
+      "bannerImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20Theni%20district.jpg?width=1920"
+    },
+    "about": {
+      "eyebrow": "01 — About",
+      "title": "சங்கம் பற்றி",
+      "body": "முல்லைப் பெரியாறு ஒருபோக பாசன விவசாயிகள் சங்கம், பெரியாறு அணையின் நீரை நம்பி ஒருபோக சாகுபடி செய்யும் தென் தமிழ்நாட்டு விவசாயிகளின் கூட்டமைப்பாகும். தண்ணீர் காலத்தோடு திறக்கப்படுவதையும், நீர்மட்டம் முழுமையாகப் பேணப்படுவதையும் உறுதிப்படுத்த தொடர்ந்து குரல் கொடுக்கிறோம்.",
+      "quoteLead": "நீர் என்பது எங்கள் தயவில் கிடைப்பதன்று —",
+      "quoteHighlight": "அது எங்கள் பிறப்புரிமை.",
+      "quoteEn": "Water is not a favour granted to us — it is our birthright.",
+      "aboutImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20Theni%20district.jpg?width=1200",
+      "aboutImageAlt": "முல்லைப் பெரியாறு அணை"
+    },
+    "leaders": {
+      "eyebrow": "02 — Leadership",
+      "title": "தலைவர்கள்",
+      "bearersLabel": "Office Bearers · நிர்வாகிகள்",
+      "presidentQuoteLead": "பெரியாறு நீர் எங்கள் மூதாதையர் உழைப்பின் பலன். அந்த நீரை, அதன் முழு உரிமையை,",
+      "presidentQuoteHighlight": "அடுத்த தலைமுறைக்குக் கடத்துவதே",
+      "presidentQuoteTail": "எங்கள் கடமை.",
+      "presidentBio": "தேனி முதல் ராமநாதபுரம் வரை பரந்த ஐந்து மாவட்ட விவசாயிகளின் குரலாக, நீர்மட்டக் கோரிக்கையையும் அணைப் பாதுகாப்பையும் அரசின் கவனத்திற்கு இடைவிடாமல் எடுத்துச் செல்கிறோம்."
+    },
+    "demands": {
+      "eyebrow": "03 — Our Demands",
+      "title": "எங்கள் கோரிக்கைகள்",
+      "description": "பெரியாறு பாசனப் பகுதி விவசாயிகளின் வாழ்வாதாரத்தை உறுதி செய்யும் முக்கியக் கோரிக்கைகள்."
+    },
+    "issue": {
+      "eyebrow": "04 — The Issue",
+      "title": "முல்லைப் பெரியாறு பிரச்சனை",
+      "body": "மேற்கு நோக்கி ஓடிய பெரியாறு நதியின் நீரை, 1895-இல் கட்டப்பட்ட முல்லைப் பெரியாறு அணை வழியாக, வறட்சி நிறைந்த தென் தமிழ்நாட்டின் ஐந்து மாவட்டங்களுக்குத் திருப்பி வழங்கப்படுகிறது. ஆனால் அணையின் நீர்மட்டம் குறித்த நீண்டகாலத் தகராறு, இப்பகுதி விவசாயிகளின் பாசனத்தை ஆண்டுதோறும் பாதித்து வருகிறது.",
+      "timelineTitle": "வரலாற்றுப் பாதை",
+      "timelineSubtitle": "Timeline"
+    },
+    "farmers": {
+      "eyebrow": "05 — Our Farmers",
+      "title": "விவசாயிகளின் குரல்",
+      "description": "பெரியாறு பாசனப் பகுதியில் ஒருபோக சாகுபடி செய்யும் ஆயிரக்கணக்கான விவசாயிகளின் வாழ்வும் வளமும் இந்த நீரை நம்பியே உள்ளது. அவர்களின் சொற்களில் —"
+    },
+    "news": {
+      "eyebrow": "06 — Recent Posts",
+      "title": "சமீபத்திய பதிவுகள்",
+      "pageTitle": "அனைத்து பதிவுகள்",
+      "pageDescription": "சங்கத்தின் சமீபத்திய செய்திகள், அறிவிப்புகள் மற்றும் நிகழ்வுகள்."
+    },
+    "video": {
+      "eyebrow": "07 — Watch",
+      "title": "காணொளிகள்",
+      "note": "* YouTube அல்லது நேரடி MP4 இணைப்பைச் சேர்க்கலாம். பதிவுகள் இந்த உலாவியில் சேமிக்கப்படும்."
+    },
+    "gallery": {
+      "eyebrow": "08 — Gallery",
+      "title": "புகைப்படத் தொகுப்பு",
+      "pageTitle": "புகைப்படத் தொகுப்பு",
+      "pageDescription": "அணை, வயல்கள், போராட்டங்கள் — சங்கத்தின் புகைப்படங்கள்."
+    },
+    "join": {
+      "eyebrow": "09 — Become a Member",
+      "title": "சங்கத்தில் இணையுங்கள்",
+      "body": "பெரியாறு பாசனப் பகுதி விவசாயிகளின் ஒற்றைக் குரலாக நாம் ஒன்றிணைவோம். உங்கள் விவரங்களைப் பதிவு செய்தால், சங்கத்தின் தொண்டர்கள் உங்களைத் தொடர்பு கொள்வார்கள்.",
+      "successTitle": "நன்றி, {name}!",
+      "successBody": "உங்கள் பதிவு பெறப்பட்டது. சங்கத்தின் தொண்டர்கள் விரைவில் உங்களைத் தொடர்பு கொள்வார்கள்.",
+      "freeNote": "உறுப்பினர் கட்டணம் முற்றிலும் இலவசம்",
+      "form": {
+        "name": "பெயர் / Name",
+        "phone": "கைபேசி / Phone",
+        "village": "ஊர் / Village",
+        "namePlaceholder": "உங்கள் முழுப் பெயர்",
+        "villagePlaceholder": "உங்கள் ஊர் / மாவட்டம்",
+        "phonePlaceholder": "+91 "
+      }
+    },
+    "contact": {
+      "eyebrow": "10 — Get in Touch",
+      "title": "தொடர்பு கொள்ள",
+      "description": "கோரிக்கைகள், உறுப்பினர் சேர்க்கை, நிகழ்வுத் தகவல்கள் — எதற்கும் சங்க அலுவலகத்தைத் தொடர்பு கொள்ளுங்கள்.",
+      "hours": "திங்கள் – சனி · 10AM – 6PM",
+      "faqTitle": "FAQ · அடிக்கடி கேட்கப்படும் கேள்விகள்"
+    }
+  },
+  "stats": [
+    { "value": "5", "label": "பாசன மாவட்டங்கள்" },
+    { "value": "152 ft", "label": "கோரும் முழு நீர்மட்டம்" },
+    { "value": "1000+", "label": "உறுப்பினர் விவசாயிகள்" },
+    { "value": "1895", "label": "அணை அமைக்கப்பட்ட ஆண்டு" }
+  ],
+  "aboutStats": [
+    { "value": "5", "label": "பயனடையும் மாவட்டங்கள்" },
+    { "value": "1895", "label": "அணை அமைக்கப்பட்ட ஆண்டு" }
+  ],
+  "objectives": [
+    {
+      "icon": "🌊",
+      "title": "நீர் உரிமை",
+      "titleSecondary": "Water Rights",
+      "body": "பெரியாறு பாசனப் பகுதி விவசாயிகளின் நீர் உரிமையைச் சட்டப்பூர்வமாகப் பாதுகாத்தல்."
+    },
+    {
+      "icon": "🛡️",
+      "title": "அணைப் பாதுகாப்பு",
+      "titleSecondary": "Dam Safety",
+      "body": "அணையின் கட்டமைப்புப் பாதுகாப்பை இடைவிடாமல் கண்காணித்து உறுதி செய்தல்."
+    },
+    {
+      "icon": "🌾",
+      "title": "வாழ்வாதாரம்",
+      "titleSecondary": "Livelihood",
+      "body": "ஒருபோக விவசாயிகளின் பயிர், வருமானம், வாழ்வாதாரத்தைக் காத்தல்."
+    }
+  ],
+  "president": {
+    "name": "மு. முருகன்",
+    "role": "தலைவர்",
+    "roleSecondary": "President",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20Theni%20district.jpg?width=1000"
+  },
+  "bearers": [
+    { "name": "பெயர் இங்கே", "role": "செயலாளர்", "roleSecondary": "Secretary", "initial": "செ" },
+    { "name": "பெயர் இங்கே", "role": "பொருளாளர்", "roleSecondary": "Treasurer", "initial": "பொ" },
+    { "name": "பெயர் இங்கே", "role": "துணைத் தலைவர்", "roleSecondary": "Vice President", "initial": "து" }
+  ],
+  "demands": [
+    { "num": "01", "text": "முல்லைப் பெரியாறு அணையின் நீர்மட்டம் 152 அடியாக உயர்த்தப்பட வேண்டும்.", "textSecondary": "Raise the dam's water level to the full 152 feet." },
+    { "num": "02", "text": "பாசனத் தேவைக்கேற்ப தண்ணீர் காலத்தோடு திறந்துவிடப்பட வேண்டும்.", "textSecondary": "Release irrigation water on time, as per cultivation needs." },
+    { "num": "03", "text": "பெரியாறு பாசனப் பகுதி விவசாயிகளின் நீர் உரிமை சட்டப்படி பாதுகாக்கப்பட வேண்டும்.", "textSecondary": "Legally protect the water rights of farmers in the command area." },
+    { "num": "04", "text": "அணையின் கட்டமைப்புப் பாதுகாப்பு தொடர்ந்து கண்காணிக்கப்பட வேண்டும்.", "textSecondary": "Continuously monitor and ensure the dam's structural safety." },
+    { "num": "05", "text": "ஒருபோக விவசாயிகளுக்கு உரிய நஷ்டஈடு மற்றும் பயிர்க் காப்பீடு வழங்கப்பட வேண்டும்.", "textSecondary": "Provide fair compensation and crop insurance to single-crop farmers." }
+  ],
+  "timeline": [
+    { "year": "1895", "text": "ஜான் பென்னிகுயிக் தலைமையில் முல்லைப் பெரியாறு அணை கட்டி முடிக்கப்பட்டது.", "textSecondary": "Mullaperiyar dam completed under John Pennycuick." },
+    { "year": "1886", "text": "999 ஆண்டு குத்தகை ஒப்பந்தம் — மேற்கு நோக்கி ஓடிய பெரியாறு நீர் கிழக்கே திருப்பப்பட்டது.", "textSecondary": "999-year lease diverts west-flowing water eastward." },
+    { "year": "2014", "text": "உச்ச நீதிமன்றம் நீர்மட்டத்தை 142 அடியிலிருந்து 152 அடியாக உயர்த்த அனுமதித்தது.", "textSecondary": "Supreme Court permits raising the level to 152 ft." },
+    { "year": "இன்று", "text": "152 அடி முழு நீர்மட்டத்தையும் காலத்தோடு நீர் திறப்பையும் சங்கம் வலியுறுத்துகிறது.", "textSecondary": "The association presses for the full level and timely release." }
+  ],
+  "issueFacts": [
+    { "value": "999", "label": "ஆண்டு குத்தகை ஒப்பந்தம்" },
+    { "value": "2 லட்சம்", "label": "ஏக்கர் பாசனப் பரப்பு" },
+    { "value": "152 ft", "label": "கோரும் முழு நீர்மட்டம்" },
+    { "value": "5", "label": "சார்ந்துள்ள மாவட்டங்கள்" }
+  ],
+  "farmerStats": [
+    { "value": "1000+", "label": "உறுப்பினர் விவசாயிகள்" },
+    { "value": "2 லட்சம்", "label": "ஏக்கர் சாகுபடி" },
+    { "value": "5", "label": "மாவட்டங்கள்" }
+  ],
+  "farmers": [
+    {
+      "name": "கருப்பசாமி",
+      "place": "தேனி மாவட்டம்",
+      "initial": "க",
+      "quote": "பெரியாறு நீர் காலத்தோடு வந்தால்தான் எங்கள் நெல் பயிர் கைகூடும். சங்கம் எங்கள் குரலாக நிற்கிறது."
+    },
+    {
+      "name": "லட்சுமி",
+      "place": "ராமநாதபுரம்",
+      "initial": "ல",
+      "quote": "நீர்மட்டம் குறைந்த ஆண்டுகளில் பயிர் இழந்தோம். 152 அடி கோரிக்கை எங்கள் வாழ்வாதாரக் கோரிக்கை."
+    },
+    {
+      "name": "முத்துராமன்",
+      "place": "சிவகங்கை",
+      "initial": "மு",
+      "quote": "தலைமுறை தலைமுறையாக இந்த நீரை நம்பியே வாழ்கிறோம். எங்கள் உரிமையைக் காக்க ஒன்றிணைந்தோம்."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "சங்கத்தில் இணைய கட்டணம் உண்டா?",
+      "a": "இல்லை. ஒருபோக பாசனப் பகுதி விவசாயிகள் அனைவரும் இலவசமாக உறுப்பினராகலாம்."
+    },
+    {
+      "q": "152 அடி நீர்மட்டம் ஏன் முக்கியம்?",
+      "a": "முழு நீர்மட்டம் இருந்தால் மட்டுமே ஐந்து மாவட்டப் பாசனத் தேவை முழுமையாக நிறைவேறும்."
+    },
+    {
+      "q": "புதிய தகவல்களை எங்கே அறியலாம்?",
+      "a": "பதிவுகள் மற்றும் காணொளிகள் பகுதிகளில் சங்கம் வாரந்தோறும் புதிய அறிவிப்புகளைப் பதிவிடுகிறது."
+    }
+  ],
+  "contacts": [
+    { "label": "கைபேசி / Phone", "value": "+91 00000 00000" },
+    { "label": "மின்னஞ்சல் / Email", "value": "contact@mullaiperiyar.org" },
+    { "label": "முகவரி / Address", "value": "சங்க அலுவலகம், தேனி மாவட்டம், தமிழ்நாடு" }
+  ],
+  "news": [
+    {
+      "id": "d1",
+      "tag": "போராட்டம்",
+      "date": "ஜூன் 12, 2026",
+      "title": "நீர்மட்டக் கோரிக்கை வலியுறுத்தி தேனியில் மாபெரும் ஆர்ப்பாட்டம்",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullaperiyar%20View.jpg?width=800",
+      "paragraphs": [
+        "ஆயிரக்கணக்கான விவசாயிகள் கலந்துகொண்ட இந்த ஆர்ப்பாட்டத்தில், முல்லைப் பெரியாறு அணையின் நீர்மட்டத்தை முழுமையாக 152 அடியாக உயர்த்த வேண்டும் என்ற கோரிக்கை வலியுறுத்தப்பட்டது.",
+        "தேனி, மதுரை, சிவகங்கை, ராமநாதபுரம், திண்டுக்கல் ஆகிய ஐந்து மாவட்டங்களிலிருந்தும் விவசாயப் பிரதிநிதிகள் கலந்துகொண்டனர். சங்கத்தின் ஐந்து முக்கியக் கோரிக்கைகள் மாவட்ட நிர்வாகத்திடம் மனுவாக வழங்கப்பட்டன.",
+        "நீர் காலத்தோடு திறந்துவிடப்படாததால் கடந்த பருவத்தில் ஏற்பட்ட பயிர் இழப்பை விவசாயிகள் சுட்டிக்காட்டினர். உரிய நடவடிக்கை எடுக்கப்படாவிட்டால் போராட்டத்தை தீவிரப்படுத்துவோம் என்றும் எச்சரிக்கப்பட்டது."
+      ]
+    },
+    {
+      "id": "d2",
+      "tag": "கூட்டம்",
+      "date": "மே 28, 2026",
+      "title": "ஐந்து மாவட்ட விவசாயப் பிரதிநிதிகள் ஒருங்கிணைப்புக் கூட்டம்",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullapperiyardam.jpg?width=800",
+      "paragraphs": [
+        "வரும் பாசன காலத்திற்கான திட்டமிடல் குறித்து ஐந்து மாவட்டப் பிரதிநிதிகள் ஒன்றுகூடி விரிவாகக் கலந்தாய்வு செய்தனர்.",
+        "நீர் பகிர்வு, கால அட்டவணை, மற்றும் அவசரகாலத் தேவைகள் குறித்து முடிவுகள் எடுக்கப்பட்டன. ஒவ்வொரு மாவட்டத்திலும் ஒருங்கிணைப்புக் குழுக்கள் அமைக்கப்படும் என அறிவிக்கப்பட்டது."
+      ]
+    },
+    {
+      "id": "d3",
+      "tag": "அறிவிப்பு",
+      "date": "மே 10, 2026",
+      "title": "புதிய உறுப்பினர் பதிவு முகாம் — அனைத்து ஊராட்சிகளிலும்",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20Theni%20district.jpg?width=800",
+      "paragraphs": [
+        "ஒருபோக பாசனப் பகுதியைச் சேர்ந்த அனைத்து விவசாயிகளும் இலவசமாக சங்க உறுப்பினராகப் பதிவு செய்துகொள்ளலாம்.",
+        "உங்கள் ஊராட்சி அலுவலகத்தில் நடைபெறும் முகாமில் கலந்துகொள்ளவும், அல்லது இணையதளத்தில் உறுப்பினர் படிவத்தை நிரப்பவும். உறுப்பினர்களுக்கு நிகழ்வுத் தகவல்கள் முன்கூட்டியே தெரிவிக்கப்படும்."
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "default",
+      "title": "நீர்மட்டக் கோரிக்கைப் போராட்டம் — தேனி",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullapperiyardam.jpg?width=1600"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullaperiyar%20View.jpg?width=1400",
+      "caption": "முல்லைப் பெரியாறு அணைக் காட்சி"
+    },
+    {
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20Theni%20district.jpg?width=1400",
+      "caption": "தேனி மாவட்ட வயல்வெளிகள்"
+    },
+    {
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullapperiyardam.jpg?width=1400",
+      "caption": "அணையின் நீர்த்தேக்கம்"
+    },
+    {
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Periyar%20dam.jpg?width=1400",
+      "caption": "பெரியாறு அணைக் கட்டமைப்பு"
+    },
+    {
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullaperiyar%20View.jpg?width=1400",
+      "caption": "சங்கப் போராட்ட நிகழ்வுகள்"
+    }
+  ],
+  "footer": {
+    "orgNameLines": ["முல்லைப் பெரியாறு", "ஒருபோக பாசன", "விவசாயிகள் சங்கம்"],
+    "pagesTitle": "பக்கங்கள்",
+    "districtsTitle": "பாசன மாவட்டங்கள்",
+    "districts": ["தேனி", "மதுரை", "சிவகங்கை", "ராமநாதபுரம்", "திண்டுக்கல்"],
+    "description": "பெரியாறு பாசனப் பகுதி விவசாயிகளின் உரிமைகளுக்கான ஒற்றைக் குரல். நீர், மண், வாழ்வாதாரம் — நம் உரிமை.",
+    "tagline": "நீர் நம் உரிமை · Water is our right",
+    "copyright": "© 2026 முல்லைப் பெரியாறு ஒருபோக பாசன விவசாயிகள் சங்கம்."
+  }
+}
